@@ -1,6 +1,7 @@
 import collections
 import math
 import json
+import random
 
 #step 1
 class Trigram_LM:
@@ -100,7 +101,41 @@ class Trigram_LM:
 
         return (best_word,max_log_probs)
 
+#step 3.1
+#input: (a list of sentences, a percent of tokens that we'll replace)
+def mask_tokens_in_sentences(sentences,x):
+    masked_sentences = []
 
+    for sentence in sentences:
+        tokens=sentence.split()
+        n_tokens=len(tokens)
+        mask_size=max(1,int(n_tokens*x)) #mask size
+
+        #sample token indices randomly
+        masked_indices=random.sample(range(n_tokens),mask_size)
+        #masking the sentence
+        for i in masked_indices:
+            tokens[i]='[*]'
+
+        #join back the sentence and add to the list
+        masked_sentences.append(" ".join(tokens))
+
+    return masked_sentences
+
+
+#helper function for 3.3 - predicting masked token
+def predict_sentence(model,masked_sent):
+    tokens=masked_sent.split()
+    predcted_tokens_list=[]
+    for i in range(len(tokens)):
+        if tokens[i]=='[*]':
+            context=" ".join(tokens[:i])
+            best_word, val =model.generate_next_token(context)
+            tokens[i]=best_word
+            predcted_tokens_list.append(best_word)
+
+    full_predected_tokens=",".join(predcted_tokens_list)
+    return " ".join(tokens), full_predected_tokens
 
 
 #loading and testing
@@ -118,8 +153,6 @@ def load_corpus(file_path):
         return []
     return sentences
 
-#step 2
-
 
 # --- Main Execution Block ---
 if __name__ == '__main__':
@@ -129,6 +162,80 @@ if __name__ == '__main__':
 
     all_sentences = load_corpus(corpus_path)
 
+    print("Training model (Testing on all sentences)...")
+    #build model with all sentences
+    model_full = Trigram_LM(all_sentences)
+
+    #step 3.2
+    print("sampling 10 sentences for step 3:")
+    #filter for sentences with at least 5 words
+    long_sentences=[s for s in all_sentences if len(s.split())>=5]
+    #randomly select 10 long sentences
+    original_sampled=random.sample(long_sentences,10)
+    masked_sampled=mask_tokens_in_sentences(original_sampled,0.1)
+
+    #save the files
+    with open('original_sampled_sents.txt', 'w', encoding='utf-8') as f:
+        f.write("\n".join(original_sampled))
+
+    with open('masked_sampled_sents.txt', 'w', encoding='utf-8') as f:
+        f.write("\n".join(masked_sampled))
+
+
+    #train no punctuation model
+    puncs=set([',', '.', ':', '?', '!', '-', '(', ')', '"', "'", ';', '–'])
+
+    no_punc_sentences=[]
+    for s in all_sentences:
+        tokens=s.split()
+        clean_tokens=[t for t in tokens if t not in puncs]
+        no_punc_sentences.append(" ".join(clean_tokens))
+    print("Training model no-puntuation...")
+    model_no_punc=Trigram_LM(no_punc_sentences)
+
+
+    #step 3.3
+    results_output= []
+    for i in range(len(original_sampled)):
+        original=original_sampled[i]
+        masked=masked_sampled[i]
+        #predict with full model
+        full_sentence, full_tokens= predict_sentence(model_full,masked)
+        #probability of full sentence in full corpus -num1
+        prob_full_full=model_full.calculate_prob_of_sentence(full_sentence)
+
+        # predict with model no-puntuation
+        no_punc_sentence, no_punc_tokens= predict_sentence(model_no_punc,masked)
+        # probability of no_punc in no_punc corpus- num4
+        prob_no_punc_no_punc=model_no_punc.calculate_prob_of_sentence(no_punc_sentence)
+
+        #probability of full sentence in no_punc corpus -num2
+        prob_full_no_punc=model_no_punc.calculate_prob_of_sentence(full_sentence)
+
+        #probability of no_punc in full corpus- num3
+        prob_no_punc_full=model_full.calculate_prob_of_sentence(no_punc_sentence)
+
+        block= f"""original_sentence: {original}
+        masked_sentence: {masked}
+        full_sentence: {full_sentence}
+        full_tokens: {full_tokens}
+        no_punc_sentence: {no_punc_sentence}
+        no_punc_tokens: {no_punc_tokens}
+        probability of full sentence in full corpus: {prob_full_full:.2f}
+        probability of full sentence in no_punc corpus: {prob_full_no_punc:.2f}
+        probability of no_punc sentence in full corpus: {prob_no_punc_full:.2f}
+        probability of no_punc sentence in no_punc corpus: {prob_no_punc_no_punc:.2f}
+        """
+        results_output.append(block)
+
+    with open('results_output.txt', 'w', encoding='utf-8') as f:
+        f.write("\n".join(results_output))
+
+
+
+
+
+    #step 1 testing
     if not all_sentences:
         print("Error: No sentences found. Please check the JSON key name inside load_corpus().")
     else:

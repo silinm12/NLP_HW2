@@ -1,0 +1,110 @@
+original_sentence: בעד – 52 , שבעה מתנגדים , חמישה נמנעים .
+        masked_sentence: בעד – 52 , שבעה מתנגדים , חמישה [*] .
+        full_sentence: בעד – 52 , שבעה מתנגדים , חמישה , .
+        full_tokens: ,
+        no_punc_sentence: בעד – 52 , שבעה מתנגדים , חמישה את .
+        no_punc_tokens: את
+        probability of full sentence in full corpus: -85.01
+        probability of full sentence in no_punc corpus: -109.32
+        probability of no_punc sentence in full corpus: -86.44
+        probability of no_punc sentence in no_punc corpus: -106.64
+        
+original_sentence: זאת אומרת , יש אופציות חקיקה .
+        masked_sentence: זאת אומרת [*] יש אופציות חקיקה .
+        full_sentence: זאת אומרת , יש אופציות חקיקה .
+        full_tokens: ,
+        no_punc_sentence: זאת אומרת אם יש אופציות חקיקה .
+        no_punc_tokens: אם
+        probability of full sentence in full corpus: -52.38
+        probability of full sentence in no_punc corpus: -65.69
+        probability of no_punc sentence in full corpus: -57.30
+        probability of no_punc sentence in no_punc corpus: -59.61
+        
+original_sentence: לדעתי , משחקים לידי הטרנספריסטים ולידי מולדת .
+        masked_sentence: לדעתי , [*] לידי הטרנספריסטים ולידי מולדת .
+        full_sentence: לדעתי , אני לידי הטרנספריסטים ולידי מולדת .
+        full_tokens: אני
+        no_punc_sentence: לדעתי , את לידי הטרנספריסטים ולידי מולדת .
+        no_punc_tokens: את
+        probability of full sentence in full corpus: -70.14
+        probability of full sentence in no_punc corpus: -82.56
+        probability of no_punc sentence in full corpus: -71.81
+        probability of no_punc sentence in no_punc corpus: -82.25
+        
+original_sentence: אותו הדבר בבית חולים הרצפלד , בכל בית חולים סיעודי ובכל מקום שבו אישה עוסקת ככוח עזר בהרמה , אם את לא יכולה להרים את 40 , 50 , 100 קילו , לכי הביתה .
+        masked_sentence: [*] [*] בבית חולים הרצפלד , בכל בית חולים סיעודי ובכל מקום שבו אישה עוסקת ככוח עזר בהרמה , אם [*] לא יכולה להרים את 40 , 50 , 100 קילו , לכי הביתה .
+        full_sentence: אני לא בבית חולים הרצפלד , בכל בית חולים סיעודי ובכל מקום שבו אישה עוסקת ככוח עזר בהרמה , אם זה לא יכולה להרים את 40 , 50 , 100 קילו , לכי הביתה .
+        full_tokens: אני,לא,זה
+        no_punc_sentence: אני לא בבית חולים הרצפלד , בכל בית חולים סיעודי ובכל מקום שבו אישה עוסקת ככוח עזר בהרמה , אם לא לא יכולה להרים את 40 , 50 , 100 קילו , לכי הביתה .
+        no_punc_tokens: אני,לא,לא
+        probability of full sentence in full corpus: -313.71
+        probability of full sentence in no_punc corpus: -348.00
+        probability of no_punc sentence in full corpus: -317.14
+        probability of no_punc sentence in no_punc corpus: -350.08
+        
+original_sentence: חבר הכנסת גפני , אני מקווה שאני מדבר גם בשמך .
+        masked_sentence: חבר [*] גפני , אני מקווה שאני מדבר גם בשמך .
+        full_sentence: חבר הכנסת גפני , אני מקווה שאני מדבר גם בשמך .
+        full_tokens: הכנסת
+        no_punc_sentence: חבר הכנסת גפני , אני מקווה שאני מדבר גם בשמך .
+        no_punc_tokens: הכנסת
+        probability of full sentence in full corpus: -79.76
+        probability of full sentence in no_punc corpus: -92.22
+        probability of no_punc sentence in full corpus: -79.76
+        probability of no_punc sentence in no_punc corpus: -92.22
+        
+original_sentence: אנחנו ביקשנו להחריג ממנו מספר דברים שזה רכב נוסעים פרטי , שאלה למעשה רכבי הליסינג .
+        masked_sentence: אנחנו ביקשנו להחריג ממנו מספר דברים שזה [*] נוסעים פרטי , שאלה למעשה רכבי הליסינג .
+        full_sentence: אנחנו ביקשנו להחריג ממנו מספר דברים שזה לא נוסעים פרטי , שאלה למעשה רכבי הליסינג .
+        full_tokens: לא
+        no_punc_sentence: אנחנו ביקשנו להחריג ממנו מספר דברים שזה לא נוסעים פרטי , שאלה למעשה רכבי הליסינג .
+        no_punc_tokens: לא
+        probability of full sentence in full corpus: -151.63
+        probability of full sentence in no_punc corpus: -161.14
+        probability of no_punc sentence in full corpus: -151.63
+        probability of no_punc sentence in no_punc corpus: -161.14
+        
+original_sentence: באה היום הזדמנות היסטורית , שהעם כולו יתלכד סביב נושא ירושלים , על תוכנית מדינית אחת ועל עמדה אחת לקראת הסדר הקבע – אתה זורק את זה ?
+        masked_sentence: [*] היום [*] היסטורית , שהעם כולו יתלכד סביב נושא ירושלים , על תוכנית מדינית אחת ועל עמדה אחת לקראת הסדר הקבע – אתה זורק את זה ?
+        full_sentence: אני היום , היסטורית , שהעם כולו יתלכד סביב נושא ירושלים , על תוכנית מדינית אחת ועל עמדה אחת לקראת הסדר הקבע – אתה זורק את זה ?
+        full_tokens: אני,,
+        no_punc_sentence: אני היום לא היסטורית , שהעם כולו יתלכד סביב נושא ירושלים , על תוכנית מדינית אחת ועל עמדה אחת לקראת הסדר הקבע – אתה זורק את זה ?
+        no_punc_tokens: אני,לא
+        probability of full sentence in full corpus: -255.58
+        probability of full sentence in no_punc corpus: -281.72
+        probability of no_punc sentence in full corpus: -257.29
+        probability of no_punc sentence in no_punc corpus: -278.41
+        
+original_sentence: אנחנו משקיעים כסף ומשאבים .
+        masked_sentence: אנחנו משקיעים כסף [*] .
+        full_sentence: אנחנו משקיעים כסף , .
+        full_tokens: ,
+        no_punc_sentence: אנחנו משקיעים כסף את .
+        no_punc_tokens: את
+        probability of full sentence in full corpus: -40.05
+        probability of full sentence in no_punc corpus: -48.05
+        probability of no_punc sentence in full corpus: -41.72
+        probability of no_punc sentence in no_punc corpus: -45.36
+        
+original_sentence: אנחנו כל פעם מקבלים את התשובות האלה , שהכסף נעלם .
+        masked_sentence: אנחנו כל פעם מקבלים את התשובות האלה , שהכסף [*] .
+        full_sentence: אנחנו כל פעם מקבלים את התשובות האלה , שהכסף , .
+        full_tokens: ,
+        no_punc_sentence: אנחנו כל פעם מקבלים את התשובות האלה , שהכסף את .
+        no_punc_tokens: את
+        probability of full sentence in full corpus: -92.06
+        probability of full sentence in no_punc corpus: -105.01
+        probability of no_punc sentence in full corpus: -93.45
+        probability of no_punc sentence in no_punc corpus: -102.33
+        
+original_sentence: סוגיית הפרות הסדר , והשר דיבר עליהן בראייה הכוללת , גם בתוך המתקנים , נושא של תקיפת מתקנים , נושא של סוגיית השריפה שחוזר ועולה בתקופה האחרונה וקיבל משנה תוקף באירוע בכרמל , פשיעה ומחלות בתוך המתקנים .
+        masked_sentence: סוגיית הפרות הסדר , והשר דיבר עליהן בראייה הכוללת , גם בתוך המתקנים , נושא של תקיפת מתקנים , נושא של סוגיית השריפה [*] ועולה בתקופה האחרונה וקיבל משנה תוקף באירוע בכרמל [*] פשיעה ומחלות [*] המתקנים .
+        full_sentence: סוגיית הפרות הסדר , והשר דיבר עליהן בראייה הכוללת , גם בתוך המתקנים , נושא של תקיפת מתקנים , נושא של סוגיית השריפה , ועולה בתקופה האחרונה וקיבל משנה תוקף באירוע בכרמל , פשיעה ומחלות , המתקנים .
+        full_tokens: ,,,,,
+        no_punc_sentence: סוגיית הפרות הסדר , והשר דיבר עליהן בראייה הכוללת , גם בתוך המתקנים , נושא של תקיפת מתקנים , נושא של סוגיית השריפה את ועולה בתקופה האחרונה וקיבל משנה תוקף באירוע בכרמל את פשיעה ומחלות את המתקנים .
+        no_punc_tokens: את,את,את
+        probability of full sentence in full corpus: -365.92
+        probability of full sentence in no_punc corpus: -407.36
+        probability of no_punc sentence in full corpus: -370.91
+        probability of no_punc sentence in no_punc corpus: -398.86
+        

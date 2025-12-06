@@ -2,6 +2,8 @@ import collections
 import math
 import json
 import random
+import textwrap
+
 
 #step 1
 class Trigram_LM:
@@ -215,7 +217,8 @@ if __name__ == '__main__':
         #probability of no_punc in full corpus- num3
         prob_no_punc_full=model_full.calculate_prob_of_sentence(no_punc_sentence)
 
-        block= f"""original_sentence: {original}
+        block= textwrap.dedent(f"""
+        original_sentence: {original}
         masked_sentence: {masked}
         full_sentence: {full_sentence}
         full_tokens: {full_tokens}
@@ -225,7 +228,7 @@ if __name__ == '__main__':
         probability of full sentence in no_punc corpus: {prob_full_no_punc:.2f}
         probability of no_punc sentence in full corpus: {prob_no_punc_full:.2f}
         probability of no_punc sentence in no_punc corpus: {prob_no_punc_no_punc:.2f}
-        """
+        """).strip()
         results_output.append(block)
 
     with open('results_output.txt', 'w', encoding='utf-8') as f:
@@ -236,6 +239,7 @@ if __name__ == '__main__':
 
 
     #step 1 testing
+    """
     if not all_sentences:
         print("Error: No sentences found. Please check the JSON key name inside load_corpus().")
     else:
@@ -278,3 +282,4 @@ if __name__ == '__main__':
             print(f"Unknown word handled safely. Score: {s:.2f}")
         except:
             print("CRASHED on unknown word!")
+            """

@@ -1,0 +1,100 @@
+original_sentence: אין ספק שאנחנו משנים את תשובתנו משאילתא לשאילתא .
+masked_sentence: [*] ספק שאנחנו משנים את תשובתנו משאילתא לשאילתא .
+full_sentence: אני ספק שאנחנו משנים את תשובתנו משאילתא לשאילתא .
+full_tokens: אני
+no_punc_sentence: אני ספק שאנחנו משנים את תשובתנו משאילתא לשאילתא .
+no_punc_tokens: אני
+probability of full sentence in full corpus: -87.78
+probability of full sentence in no_punc corpus: -88.70
+probability of no_punc sentence in full corpus: -87.78
+probability of no_punc sentence in no_punc corpus: -88.70
+original_sentence: ברשותך , הדובר , יושב-ראש הקואליציה וחבר הכנסת המציע , קיבלתי היום דרישה מחבר הכנסת פרץ , גם באמצעות פרקליטו , עורך-הדין אביגדור פלדמן , שלא להעלות את הנושא לדיון בקריאה הראשונה בטענה של אי-חוקתיות החוק .
+masked_sentence: ברשותך [*] הדובר , יושב-ראש הקואליציה [*] הכנסת המציע , קיבלתי היום דרישה מחבר הכנסת פרץ , גם באמצעות פרקליטו , עורך-הדין אביגדור פלדמן , שלא להעלות [*] הנושא לדיון בקריאה הראשונה בטענה של אי-חוקתיות החוק .
+full_sentence: ברשותך , הדובר , יושב-ראש הקואליציה , הכנסת המציע , קיבלתי היום דרישה מחבר הכנסת פרץ , גם באמצעות פרקליטו , עורך-הדין אביגדור פלדמן , שלא להעלות את הנושא לדיון בקריאה הראשונה בטענה של אי-חוקתיות החוק .
+full_tokens: ,,,,את
+no_punc_sentence: ברשותך אני הדובר , יושב-ראש הקואליציה חבר הכנסת המציע , קיבלתי היום דרישה מחבר הכנסת פרץ , גם באמצעות פרקליטו , עורך-הדין אביגדור פלדמן , שלא להעלות את הנושא לדיון בקריאה הראשונה בטענה של אי-חוקתיות החוק .
+no_punc_tokens: אני,חבר,את
+probability of full sentence in full corpus: -350.59
+probability of full sentence in no_punc corpus: -389.38
+probability of no_punc sentence in full corpus: -352.30
+probability of no_punc sentence in no_punc corpus: -377.09
+original_sentence: כבוד היושב-ראש , חברי הכנסת , לפעמים אתה מסתכל , אתה קורא דברי הסבר להצעת חוק , ובמובלע אתה מגלה דברים פשוט מדהימים , שהדעת איננה סובלת אותם .
+masked_sentence: כבוד היושב-ראש , חברי הכנסת , לפעמים אתה מסתכל , אתה קורא דברי הסבר [*] חוק , [*] אתה מגלה דברים פשוט מדהימים , שהדעת איננה סובלת אותם .
+full_sentence: כבוד היושב-ראש , חברי הכנסת , לפעמים אתה מסתכל , אתה קורא דברי הסבר . חוק , אני אתה מגלה דברים פשוט מדהימים , שהדעת איננה סובלת אותם .
+full_tokens: .,אני
+no_punc_sentence: כבוד היושב-ראש , חברי הכנסת , לפעמים אתה מסתכל , אתה קורא דברי הסבר זה חוק , את אתה מגלה דברים פשוט מדהימים , שהדעת איננה סובלת אותם .
+no_punc_tokens: זה,את
+probability of full sentence in full corpus: -259.05
+probability of full sentence in no_punc corpus: -303.59
+probability of no_punc sentence in full corpus: -259.32
+probability of no_punc sentence in no_punc corpus: -300.72
+original_sentence: בהזדמנות זו אני גם רוצה לבטא מחאה , אני חושב שהיא גם מחאה של חברי כנסת רבים , על כך שתהליך החקיקה בכנסת מתעכב כיוון שבשלב ניסוח החוקים הם עוברים לניסוח של משרד המשפטים .
+masked_sentence: בהזדמנות זו אני גם רוצה לבטא מחאה , אני חושב שהיא גם מחאה של חברי כנסת [*] , על כך שתהליך החקיקה בכנסת מתעכב כיוון [*] ניסוח החוקים הם עוברים לניסוח [*] משרד המשפטים .
+full_sentence: בהזדמנות זו אני גם רוצה לבטא מחאה , אני חושב שהיא גם מחאה של חברי כנסת , , על כך שתהליך החקיקה בכנסת מתעכב כיוון שאנחנו ניסוח החוקים הם עוברים לניסוח של משרד המשפטים .
+full_tokens: ,,שאנחנו,של
+no_punc_sentence: בהזדמנות זו אני גם רוצה לבטא מחאה , אני חושב שהיא גם מחאה של חברי כנסת נכבדה , על כך שתהליך החקיקה בכנסת מתעכב כיוון שאנחנו ניסוח החוקים הם עוברים לניסוח של משרד המשפטים .
+no_punc_tokens: נכבדה,שאנחנו,של
+probability of full sentence in full corpus: -320.78
+probability of full sentence in no_punc corpus: -341.03
+probability of no_punc sentence in full corpus: -315.80
+probability of no_punc sentence in no_punc corpus: -337.03
+original_sentence: לכן המשכורת מגיעה להם כפי שמגיעה לכל עובד מדינת ישראל .
+masked_sentence: לכן המשכורת מגיעה להם כפי שמגיעה לכל עובד [*] ישראל .
+full_sentence: לכן המשכורת מגיעה להם כפי שמגיעה לכל עובד , ישראל .
+full_tokens: ,
+no_punc_sentence: לכן המשכורת מגיעה להם כפי שמגיעה לכל עובד חדש ישראל .
+no_punc_tokens: חדש
+probability of full sentence in full corpus: -104.71
+probability of full sentence in no_punc corpus: -112.97
+probability of no_punc sentence in full corpus: -107.34
+probability of no_punc sentence in no_punc corpus: -112.19
+original_sentence: הסתכלנו באופן כללי , ואנחנו לא רואים סעיפים משמעותיים .
+masked_sentence: [*] באופן כללי , ואנחנו לא רואים סעיפים משמעותיים .
+full_sentence: אני באופן כללי , ואנחנו לא רואים סעיפים משמעותיים .
+full_tokens: אני
+no_punc_sentence: אני באופן כללי , ואנחנו לא רואים סעיפים משמעותיים .
+no_punc_tokens: אני
+probability of full sentence in full corpus: -85.20
+probability of full sentence in no_punc corpus: -94.17
+probability of no_punc sentence in full corpus: -85.20
+probability of no_punc sentence in no_punc corpus: -94.17
+original_sentence: והיום הניסיון הזה מתחיל לחלחל באיזו צורה .
+masked_sentence: והיום [*] הזה מתחיל לחלחל באיזו צורה .
+full_sentence: והיום , הזה מתחיל לחלחל באיזו צורה .
+full_tokens: ,
+no_punc_sentence: והיום אנחנו הזה מתחיל לחלחל באיזו צורה .
+no_punc_tokens: אנחנו
+probability of full sentence in full corpus: -82.33
+probability of full sentence in no_punc corpus: -85.33
+probability of no_punc sentence in full corpus: -83.44
+probability of no_punc sentence in no_punc corpus: -84.31
+original_sentence: אם תרשה לי , לפני שאקרא סדרה נוספת של שמות , גם לי לא זכור דיון כזה בתקציב , לא בוועדות וגם לא במליאה .
+masked_sentence: אם תרשה לי , לפני שאקרא סדרה נוספת של שמות , גם לי לא זכור [*] [*] בתקציב , לא בוועדות וגם לא במליאה .
+full_sentence: אם תרשה לי , לפני שאקרא סדרה נוספת של שמות , גם לי לא זכור ; הצעת בתקציב , לא בוועדות וגם לא במליאה .
+full_tokens: ;,הצעת
+no_punc_sentence: אם תרשה לי , לפני שאקרא סדרה נוספת של שמות , גם לי לא זכור הצעת חוק בתקציב , לא בוועדות וגם לא במליאה .
+no_punc_tokens: הצעת,חוק
+probability of full sentence in full corpus: -229.24
+probability of full sentence in no_punc corpus: -259.72
+probability of no_punc sentence in full corpus: -229.23
+probability of no_punc sentence in no_punc corpus: -253.36
+original_sentence: אז קיימנו את ההפגנה על ירושלים .
+masked_sentence: אז קיימנו את ההפגנה על ירושלים [*]
+full_sentence: אז קיימנו את ההפגנה על ירושלים ,
+full_tokens: ,
+no_punc_sentence: אז קיימנו את ההפגנה על ירושלים לא
+no_punc_tokens: לא
+probability of full sentence in full corpus: -65.55
+probability of full sentence in no_punc corpus: -68.55
+probability of no_punc sentence in full corpus: -68.02
+probability of no_punc sentence in no_punc corpus: -67.13
+original_sentence: הרי כשממשלה רוצה להעביר חוק , היא יכולה להעביר אותו מהר מאוד גם בלי חוק ההסדרים .
+masked_sentence: הרי כשממשלה רוצה להעביר חוק , היא יכולה להעביר אותו מהר מאוד גם [*] חוק ההסדרים .
+full_sentence: הרי כשממשלה רוצה להעביר חוק , היא יכולה להעביר אותו מהר מאוד גם את חוק ההסדרים .
+full_tokens: את
+no_punc_sentence: הרי כשממשלה רוצה להעביר חוק , היא יכולה להעביר אותו מהר מאוד גם את חוק ההסדרים .
+no_punc_tokens: את
+probability of full sentence in full corpus: -152.93
+probability of full sentence in no_punc corpus: -164.06
+probability of no_punc sentence in full corpus: -152.93
+probability of no_punc sentence in no_punc corpus: -164.06

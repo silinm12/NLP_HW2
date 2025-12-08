@@ -42,7 +42,7 @@ class Trigram_LM:
 
     def calculate_prob_of_sentence(self, sentence):
         lambda3=0.8  #trigram
-        lambda2=0.19  #bigram
+        lambda2=0.1999  #bigram
         lambda1=1-lambda3-lambda2   #unigrams
         tokens=sentence.split()
         tokens= ['*start*','*start*']+tokens
@@ -164,12 +164,10 @@ if __name__ == '__main__':
 
     all_sentences = load_corpus(corpus_path)
 
-    print("Training model (Testing on all sentences)...")
     #build model with all sentences
     model_full = Trigram_LM(all_sentences)
 
     #step 3.2
-    print("sampling 10 sentences for step 3:")
     #filter for sentences with at least 5 words
     long_sentences=[s for s in all_sentences if len(s.split())>=5]
     #randomly select 10 long sentences
@@ -192,7 +190,6 @@ if __name__ == '__main__':
         tokens=s.split()
         clean_tokens=[t for t in tokens if t not in puncs]
         no_punc_sentences.append(" ".join(clean_tokens))
-    print("Training model no-puntuation...")
     model_no_punc=Trigram_LM(no_punc_sentences)
 
 
@@ -233,53 +230,3 @@ if __name__ == '__main__':
 
     with open('results_output.txt', 'w', encoding='utf-8') as f:
         f.write("\n".join(results_output))
-
-
-
-
-
-    #step 1 testing
-    """
-    if not all_sentences:
-        print("Error: No sentences found. Please check the JSON key name inside load_corpus().")
-    else:
-        # 2. Train the Model (Using first 1000 for testing purposes)
-        # CHANGE TO: model = Trigram_LM(all_sentences) for the final run
-        print("Training model (Testing on all sentences)...")
-        model = Trigram_LM(all_sentences)
-
-        # 3. Test Prediction
-        test_context = "חברי הכנסת"
-        print(f"\nPredicting next token after: '{test_context}'")
-        next_word, prob = model.generate_next_token(test_context)
-        print(f"Predicted: {next_word} (Log Prob: {prob:.2f})")
-
-        # 4. Test Sentence Probability
-        test_sent = "חברי הכנסת הצביעו בעד החוק"
-        score = model.calculate_prob_of_sentence(test_sent)
-        print(f"Probability of '{test_sent}': {score:.2f}")
-
-        # Real sentence (Common in Knesset)
-        good_sent = "אני מבקש להודות ליושב ראש"
-        score1 = model.calculate_prob_of_sentence(good_sent)
-
-        # Nonsense sentence (Random words)
-        bad_sent = "שולחן אכל אתמול את החוק"
-        score2 = model.calculate_prob_of_sentence(bad_sent)
-
-        print(f"Good Sentence Score: {score1:.2f}")  # Expect roughly -20 to -40
-        print(f"Bad Sentence Score: {score2:.2f}")  # Expect roughly -50 to -70 (Lower is worse)
-
-        # "Head of..." -> Should predict "Government" (הממשלה) or "Committee" (הוועדה)
-        context = "ראש"
-        pred, _ = model.generate_next_token(context)
-        print(f"After 'ראש', model predicts: {pred}")
-
-        # "Supercalifragilistic" is not in the Knesset corpus
-        weird_sent = "החוק הוא סופרקאליפרג'יליסטיק"
-        try:
-            s = model.calculate_prob_of_sentence(weird_sent)
-            print(f"Unknown word handled safely. Score: {s:.2f}")
-        except:
-            print("CRASHED on unknown word!")
-            """

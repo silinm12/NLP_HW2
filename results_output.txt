@@ -1,100 +1,100 @@
-original_sentence: יושבים כאן חברי מש"ס .
-masked_sentence: יושבים כאן חברי [*] .
-full_sentence: יושבים כאן חברי הכנסת .
-full_tokens: הכנסת
-no_punc_sentence: יושבים כאן חברי הכנסת .
-no_punc_tokens: הכנסת
-probability of full sentence in full corpus: -38.78
-probability of full sentence in no_punc corpus: -44.09
-probability of no_punc sentence in full corpus: -38.78
-probability of no_punc sentence in no_punc corpus: -44.09
-original_sentence: 121 זה סעיף הפיצול .
-masked_sentence: [*] זה סעיף הפיצול .
-full_sentence: אני זה סעיף הפיצול .
+original_sentence: אל תכניסו אותי לאותן רשויות שגם אני אקרוס .
+masked_sentence: אל [*] אותי לאותן רשויות שגם אני אקרוס .
+full_sentence: אל , אותי לאותן רשויות שגם אני אקרוס .
+full_tokens: ,
+no_punc_sentence: אל את אותי לאותן רשויות שגם אני אקרוס .
+no_punc_tokens: את
+probability of full sentence in full corpus: -92.48
+probability of full sentence in no_punc corpus: -94.09
+probability of no_punc sentence in full corpus: -93.16
+probability of no_punc sentence in no_punc corpus: -94.00
+original_sentence: אני אתמוך בחוק זה בהצבעתי כאן .
+masked_sentence: אני אתמוך בחוק [*] בהצבעתי כאן .
+full_sentence: אני אתמוך בחוק , בהצבעתי כאן .
+full_tokens: ,
+no_punc_sentence: אני אתמוך בחוק הזה בהצבעתי כאן .
+no_punc_tokens: הזה
+probability of full sentence in full corpus: -60.71
+probability of full sentence in no_punc corpus: -67.67
+probability of no_punc sentence in full corpus: -60.60
+probability of no_punc sentence in no_punc corpus: -64.76
+original_sentence: אלה ספרים שנבחרו בספריות ?
+masked_sentence: אלה ספרים שנבחרו [*] ?
+full_sentence: אלה ספרים שנבחרו , ?
+full_tokens: ,
+no_punc_sentence: אלה ספרים שנבחרו את ?
+no_punc_tokens: את
+probability of full sentence in full corpus: -50.49
+probability of full sentence in no_punc corpus: -50.84
+probability of no_punc sentence in full corpus: -50.59
+probability of no_punc sentence in no_punc corpus: -50.76
+original_sentence: גברתי היושבת-ראש , חברי חברי הכנסת , נדמה לי שבסך הכול , כל מי שיעלה יגיד אותו דבר , ולכן לא ארחיב על מה שאמרה חברתי לסיעה .
+masked_sentence: גברתי היושבת-ראש , חברי חברי הכנסת , נדמה לי [*] הכול , כל מי שיעלה יגיד אותו דבר [*] ולכן לא ארחיב על מה שאמרה חברתי לסיעה .
+full_sentence: גברתי היושבת-ראש , חברי חברי הכנסת , נדמה לי , הכול , כל מי שיעלה יגיד אותו דבר . ולכן לא ארחיב על מה שאמרה חברתי לסיעה .
+full_tokens: ,,.
+no_punc_sentence: גברתי היושבת-ראש , חברי חברי הכנסת , נדמה לי את הכול , כל מי שיעלה יגיד אותו דבר כזה ולכן לא ארחיב על מה שאמרה חברתי לסיעה .
+no_punc_tokens: את,כזה
+probability of full sentence in full corpus: -229.68
+probability of full sentence in no_punc corpus: -272.61
+probability of no_punc sentence in full corpus: -231.29
+probability of no_punc sentence in no_punc corpus: -263.47
+original_sentence: היא מבקשת להרחיב את המושג של העתק אל מה שבעצם אנחנו חיים בתוכו .
+masked_sentence: היא מבקשת להרחיב [*] המושג של העתק אל מה שבעצם אנחנו חיים בתוכו .
+full_sentence: היא מבקשת להרחיב , המושג של העתק אל מה שבעצם אנחנו חיים בתוכו .
+full_tokens: ,
+no_punc_sentence: היא מבקשת להרחיב את המושג של העתק אל מה שבעצם אנחנו חיים בתוכו .
+no_punc_tokens: את
+probability of full sentence in full corpus: -141.00
+probability of full sentence in no_punc corpus: -142.82
+probability of no_punc sentence in full corpus: -137.34
+probability of no_punc sentence in no_punc corpus: -138.36
+original_sentence: יש גם מטרה של התפתחות הפעוטות .
+masked_sentence: יש גם מטרה של [*] הפעוטות .
+full_sentence: יש גם מטרה של חבר הפעוטות .
+full_tokens: חבר
+no_punc_sentence: יש גם מטרה של חבר הפעוטות .
+no_punc_tokens: חבר
+probability of full sentence in full corpus: -61.33
+probability of full sentence in no_punc corpus: -62.00
+probability of no_punc sentence in full corpus: -61.33
+probability of no_punc sentence in no_punc corpus: -62.00
+original_sentence: <איתי עצמון : > נוסח ראשוני .
+masked_sentence: <איתי עצמון [*] > נוסח ראשוני .
+full_sentence: <איתי עצמון , > נוסח ראשוני .
+full_tokens: ,
+no_punc_sentence: <איתי עצמון את > נוסח ראשוני .
+no_punc_tokens: את
+probability of full sentence in full corpus: -72.75
+probability of full sentence in no_punc corpus: -74.33
+probability of no_punc sentence in full corpus: -72.98
+probability of no_punc sentence in no_punc corpus: -74.24
+original_sentence: הנדבך השלישי הוא החלה של סטנדרטים של בטיחות שייקבעו איך צריכה להיראות אותה מסגרת מבחינת המכשור שקיים בה , המתקנים , מערכת החשמל וכך הלאה .
+masked_sentence: הנדבך השלישי הוא החלה של סטנדרטים של בטיחות שייקבעו איך צריכה להיראות אותה מסגרת מבחינת המכשור שקיים בה , המתקנים [*] מערכת החשמל [*] הלאה .
+full_sentence: הנדבך השלישי הוא החלה של סטנדרטים של בטיחות שייקבעו איך צריכה להיראות אותה מסגרת מבחינת המכשור שקיים בה , המתקנים , מערכת החשמל , הלאה .
+full_tokens: ,,,
+no_punc_sentence: הנדבך השלישי הוא החלה של סטנדרטים של בטיחות שייקבעו איך צריכה להיראות אותה מסגרת מבחינת המכשור שקיים בה , המתקנים את מערכת החשמל את הלאה .
+no_punc_tokens: את,את
+probability of full sentence in full corpus: -269.75
+probability of full sentence in no_punc corpus: -281.06
+probability of no_punc sentence in full corpus: -272.45
+probability of no_punc sentence in no_punc corpus: -278.57
+original_sentence: כל הניסיונות שלנו לשלב עובדים בדואים מהנגב בחקלאות הישראלית לא צלחו בשלב הזה , מסיבות שאינן קשורות אליהם באופן ישיר .
+masked_sentence: כל הניסיונות שלנו לשלב עובדים בדואים מהנגב בחקלאות הישראלית לא צלחו בשלב הזה , מסיבות [*] קשורות אליהם באופן [*] .
+full_sentence: כל הניסיונות שלנו לשלב עובדים בדואים מהנגב בחקלאות הישראלית לא צלחו בשלב הזה , מסיבות , קשורות אליהם באופן , .
+full_tokens: ,,,
+no_punc_sentence: כל הניסיונות שלנו לשלב עובדים בדואים מהנגב בחקלאות הישראלית לא צלחו בשלב הזה , מסיבות את קשורות אליהם באופן לא .
+no_punc_tokens: את,לא
+probability of full sentence in full corpus: -212.13
+probability of full sentence in no_punc corpus: -219.59
+probability of no_punc sentence in full corpus: -208.18
+probability of no_punc sentence in no_punc corpus: -218.49
+original_sentence: בעד – 33 , מתנגד אחד , שלושה נמנעים .
+masked_sentence: [*] – 33 , מתנגד אחד , שלושה נמנעים .
+full_sentence: אני – 33 , מתנגד אחד , שלושה נמנעים .
 full_tokens: אני
-no_punc_sentence: אני זה סעיף הפיצול .
+no_punc_sentence: אני – 33 , מתנגד אחד , שלושה נמנעים .
 no_punc_tokens: אני
-probability of full sentence in full corpus: -40.54
-probability of full sentence in no_punc corpus: -44.07
-probability of no_punc sentence in full corpus: -40.54
-probability of no_punc sentence in no_punc corpus: -44.07
-original_sentence: אני מסכים להצעת סגן השר .
-masked_sentence: אני מסכים להצעת [*] השר .
-full_sentence: אני מסכים להצעת , השר .
-full_tokens: ,
-no_punc_sentence: אני מסכים להצעת החוק השר .
-no_punc_tokens: החוק
-probability of full sentence in full corpus: -43.47
-probability of full sentence in no_punc corpus: -53.60
-probability of no_punc sentence in full corpus: -46.04
-probability of no_punc sentence in no_punc corpus: -50.26
-original_sentence: <מיקי רוזנטל ( המחנה הציוני ) : > לא הבנו מה כתוב כאן .
-masked_sentence: <מיקי רוזנטל ( המחנה הציוני ) : > לא הבנו מה [*] כאן .
-full_sentence: <מיקי רוזנטל ( המחנה הציוני ) : > לא הבנו מה , כאן .
-full_tokens: ,
-no_punc_sentence: <מיקי רוזנטל ( המחנה הציוני ) : > לא הבנו מה זה כאן .
-no_punc_tokens: זה
-probability of full sentence in full corpus: -96.75
-probability of full sentence in no_punc corpus: -137.55
-probability of no_punc sentence in full corpus: -96.65
-probability of no_punc sentence in no_punc corpus: -132.41
-original_sentence: אבל באוסישקין כאשר העשן לא מתפזר זאת סכנה פיזית לאנשים שיש להם בעיות נשימה .
-masked_sentence: אבל באוסישקין כאשר העשן לא מתפזר זאת סכנה פיזית לאנשים שיש [*] בעיות נשימה .
-full_sentence: אבל באוסישקין כאשר העשן לא מתפזר זאת סכנה פיזית לאנשים שיש , בעיות נשימה .
-full_tokens: ,
-no_punc_sentence: אבל באוסישקין כאשר העשן לא מתפזר זאת סכנה פיזית לאנשים שיש לו בעיות נשימה .
-no_punc_tokens: לו
-probability of full sentence in full corpus: -144.65
-probability of full sentence in no_punc corpus: -152.82
-probability of no_punc sentence in full corpus: -145.74
-probability of no_punc sentence in no_punc corpus: -149.21
-original_sentence: תעודות מעבר לירדן לתושבי מזרח-ירושלים חבר הכנסת ו' צאדק חאג' - יחיא שאל את שר הפנים ביום כ"ג בסיוון התשנ"ח ( 17 ביוני 1998 ) : נודע לי , שמשרדך מתכוון לשנות את נוהלי מתן היתרי היציאה לירדן בעבור תושבי מזרח-ירושלים ולהחליפם בתעודות מעבר .
-masked_sentence: תעודות מעבר לירדן לתושבי [*] [*] הכנסת ו' צאדק חאג' - יחיא שאל את שר הפנים ביום [*] בסיוון התשנ"ח ( 17 ביוני 1998 ) : נודע לי , שמשרדך מתכוון לשנות את נוהלי מתן היתרי היציאה [*] בעבור תושבי מזרח-ירושלים ולהחליפם בתעודות מעבר .
-full_sentence: תעודות מעבר לירדן לתושבי , אני הכנסת ו' צאדק חאג' - יחיא שאל את שר הפנים ביום , בסיוון התשנ"ח ( 17 ביוני 1998 ) : נודע לי , שמשרדך מתכוון לשנות את נוהלי מתן היתרי היציאה , בעבור תושבי מזרח-ירושלים ולהחליפם בתעודות מעבר .
-full_tokens: ,,אני,,,,
-no_punc_sentence: תעודות מעבר לירדן לתושבי את זה הכנסת ו' צאדק חאג' - יחיא שאל את שר הפנים ביום את בסיוון התשנ"ח ( 17 ביוני 1998 ) : נודע לי , שמשרדך מתכוון לשנות את נוהלי מתן היתרי היציאה את בעבור תושבי מזרח-ירושלים ולהחליפם בתעודות מעבר .
-no_punc_tokens: את,זה,את,את
-probability of full sentence in full corpus: -421.51
-probability of full sentence in no_punc corpus: -467.67
-probability of no_punc sentence in full corpus: -425.74
-probability of no_punc sentence in no_punc corpus: -455.73
-original_sentence: איך זה קשור לשר ?
-masked_sentence: איך זה [*] לשר ?
-full_sentence: איך זה לא לשר ?
-full_tokens: לא
-no_punc_sentence: איך זה לא לשר ?
-no_punc_tokens: לא
-probability of full sentence in full corpus: -40.31
-probability of full sentence in no_punc corpus: -42.08
-probability of no_punc sentence in full corpus: -40.31
-probability of no_punc sentence in no_punc corpus: -42.08
-original_sentence: << אורח >> פהד חכים : << אורח >> אני מייצג אותו .
-masked_sentence: << אורח [*] פהד חכים : << אורח >> אני מייצג אותו .
-full_sentence: << אורח >> פהד חכים : << אורח >> אני מייצג אותו .
-full_tokens: >>
-no_punc_sentence: << אורח >> פהד חכים : << אורח >> אני מייצג אותו .
-no_punc_tokens: >>
-probability of full sentence in full corpus: -87.30
-probability of full sentence in no_punc corpus: -100.49
-probability of no_punc sentence in full corpus: -87.30
-probability of no_punc sentence in no_punc corpus: -100.49
-original_sentence: ועכשיו , ברשות יושב-ראש הוועדה-כבוד נשיא המדינה והגברת קצב , אדוני סגן יושב-ראש הכנסת ויושב-ראש השדולה לשילוב אנשים עם מוגבלות בחברה , חבר הכנסת נסים דהן , יוזם אחר-צהריים זה ויוזם ציון היום הבין-לאומי לזכויות אנשים עם מוגבלות , אדוני יושב-ראש ועדת העבודה , הרווחה והבריאות , שאול יהלום , העושה מלאכת קודש בכל מה שקשור בנושאים שנדון בהם היום אחר-הצהריים , שרים-כבוד שר המשפטים נמצא פה-חברי וחברות הכנסת , נציגי ארגונים שעושים כל השנה מלאכת קודש של סיוע ותמיכה באלפי אנשים עם מוגבלות , בעלי מוגבלות יקרים ובני משפחותיהם , אורחים ואורחות , הכנסת מציינת היום יום מיוחד המוקדש לבעלי מוגבלויות .
-masked_sentence: ועכשיו , ברשות יושב-ראש הוועדה-כבוד נשיא המדינה [*] קצב , אדוני סגן יושב-ראש הכנסת ויושב-ראש השדולה לשילוב אנשים עם מוגבלות בחברה , חבר הכנסת נסים דהן , יוזם [*] זה [*] ציון היום הבין-לאומי לזכויות אנשים עם מוגבלות , אדוני יושב-ראש ועדת העבודה , הרווחה והבריאות , שאול יהלום , העושה מלאכת קודש בכל מה שקשור בנושאים שנדון בהם היום אחר-הצהריים , שרים-כבוד [*] [*] נמצא [*] [*] הכנסת , נציגי ארגונים שעושים כל השנה מלאכת [*] של סיוע [*] באלפי אנשים עם מוגבלות , בעלי מוגבלות יקרים ובני משפחותיהם , אורחים ואורחות , הכנסת מציינת היום יום מיוחד המוקדש לבעלי מוגבלויות [*]
-full_sentence: ועכשיו , ברשות יושב-ראש הוועדה-כבוד נשיא המדינה , קצב , אדוני סגן יושב-ראש הכנסת ויושב-ראש השדולה לשילוב אנשים עם מוגבלות בחברה , חבר הכנסת נסים דהן , יוזם , זה לא ציון היום הבין-לאומי לזכויות אנשים עם מוגבלות , אדוני יושב-ראש ועדת העבודה , הרווחה והבריאות , שאול יהלום , העושה מלאכת קודש בכל מה שקשור בנושאים שנדון בהם היום אחר-הצהריים , שרים-כבוד , אני נמצא , אני הכנסת , נציגי ארגונים שעושים כל השנה מלאכת , של סיוע , באלפי אנשים עם מוגבלות , בעלי מוגבלות יקרים ובני משפחותיהם , אורחים ואורחות , הכנסת מציינת היום יום מיוחד המוקדש לבעלי מוגבלויות ,
-full_tokens: ,,,,לא,,,אני,,,אני,,,,,,
-no_punc_sentence: ועכשיו , ברשות יושב-ראש הוועדה-כבוד נשיא המדינה לא קצב , אדוני סגן יושב-ראש הכנסת ויושב-ראש השדולה לשילוב אנשים עם מוגבלות בחברה , חבר הכנסת נסים דהן , יוזם את זה לא ציון היום הבין-לאומי לזכויות אנשים עם מוגבלות , אדוני יושב-ראש ועדת העבודה , הרווחה והבריאות , שאול יהלום , העושה מלאכת קודש בכל מה שקשור בנושאים שנדון בהם היום אחר-הצהריים , שרים-כבוד את זה נמצא את זה הכנסת , נציגי ארגונים שעושים כל השנה מלאכת את של סיוע את באלפי אנשים עם מוגבלות , בעלי מוגבלות יקרים ובני משפחותיהם , אורחים ואורחות , הכנסת מציינת היום יום מיוחד המוקדש לבעלי מוגבלויות את
-no_punc_tokens: לא,את,לא,את,זה,את,זה,את,את,את
-probability of full sentence in full corpus: -900.95
-probability of full sentence in no_punc corpus: -1029.32
-probability of no_punc sentence in full corpus: -913.08
-probability of no_punc sentence in no_punc corpus: -998.12
-original_sentence: <שמרית גיטלין שקד : > סעיף 342 הוקרא בוועדה .
-masked_sentence: <שמרית [*] שקד : > סעיף 342 הוקרא בוועדה .
-full_sentence: <שמרית , שקד : > סעיף 342 הוקרא בוועדה .
-full_tokens: ,
-no_punc_sentence: <שמרית גיטלין שקד : > סעיף 342 הוקרא בוועדה .
-no_punc_tokens: גיטלין
-probability of full sentence in full corpus: -89.77
-probability of full sentence in no_punc corpus: -106.49
-probability of no_punc sentence in full corpus: -85.49
-probability of no_punc sentence in no_punc corpus: -99.48
+probability of full sentence in full corpus: -84.57
+probability of full sentence in no_punc corpus: -102.73
+probability of no_punc sentence in full corpus: -84.57
+probability of no_punc sentence in no_punc corpus: -102.73
